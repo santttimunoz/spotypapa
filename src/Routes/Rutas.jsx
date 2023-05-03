@@ -3,6 +3,9 @@ import { Home } from "../Home/Home"
 import { Members } from "../Members/Members"
 import { Menu } from "../shared/Menu/Menu"
 import { Footer } from "../shared/Footer/Footer"
+import { History } from "../History/History"
+import { Colaboraciones } from "../colaboraciones/Colaboraciones"
+import { Tienda } from "../Tienda/Tienda"
 
 //este componente no retorna jsx
 export function Rutas() {
@@ -11,7 +14,10 @@ export function Rutas() {
         <Menu /> 
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/integrantes" element={<Members />} />            
+            <Route path="/integrantes" element={<Members />} />  
+            <Route path="/historia" element={<History />} />  
+            <Route path="/colaboraciones" element={<Colaboraciones />} />   
+            <Route path="/tienda" element={<Tienda />} />   
         </Routes>
         <Footer />
         </>
