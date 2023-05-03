@@ -1,0 +1,9 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/musicossmm.appspot.com/o/jimmy.webp?alt=media&token=a62c756d-637f-4b72-96d3-3f9d0b754f9c");
+    background-position: top center;
+    background-size: cover;
+    padding: 20%;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 10% 15% 18% 5%;    
+}
